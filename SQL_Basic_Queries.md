@@ -15,7 +15,9 @@
   ```
   - find the phone number for a particular supplier (provide id, or supplier name).
   ```
-  
+  select Phone
+  from Suppliers
+  where SupplierID = 3;
   ```
   - find all customers in a particular postal code.
   ```
