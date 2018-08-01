@@ -21,7 +21,9 @@
   ```
   - find all customers in a particular postal code.
   ```
-  
+  select *
+  from Customers
+  where PostalCode = 14776;
   ```
   - find all suppliers who have names with more than 20 characters.
   ```
