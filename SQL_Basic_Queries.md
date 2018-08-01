@@ -27,7 +27,9 @@
   ```
   - find all suppliers who have names with more than 20 characters.
   ```
-  
+  select *
+  from Suppliers
+  where length(SupplierName) > 20;
   ```
   - list customers descending by the number of orders.
   ```
