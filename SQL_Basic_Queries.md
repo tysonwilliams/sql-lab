@@ -9,7 +9,9 @@
   ```
   - find all customers that live in London.
   ```
-  
+  select *
+  from Customers
+  where City = "London";
   ```
   - find the phone number for a particular supplier (provide id, or supplier name).
   ```
