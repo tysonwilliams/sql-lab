@@ -33,7 +33,11 @@
   ```
   - list customers descending by the number of orders.
   ```
-  
+  select count(orderID) as numberOfOrders, CustomerName 
+    from Orders
+    join Customers ON Orders.CustomerID = Customers.CustomerID
+  group by Customers.CustomerID
+  order by numberOfOrders desc;
   ```
   - list orders descending by the order date.
   ```
