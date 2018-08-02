@@ -41,7 +41,9 @@
   ```
   - list orders descending by the order date.
   ```
-  
+  select *
+  from Orders
+  order by OrderDate desc;
   ```
   - list orders grouped by customer showing the number of orders per customer.
   ```
